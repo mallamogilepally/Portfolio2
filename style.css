@@ -1,0 +1,104 @@
+body{
+    height: 1000px;
+}
+
+.pageone{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(images/headerbg.png);
+    width: 100%;
+    height:100%;
+    background-repeat: no-repeat;
+    
+}
+
+nav.navbar{
+   background-color: transparent ! important;
+    }
+nav.navbar-scrolled{
+     background-color: red! important;
+     margin-top: 0px;
+         padding-top: 0px;
+    
+}
+
+.navbar .navbar-brand{
+ margin-top: 20px;
+ font-size: 1.5em;
+ font-family: 'Coiny', cursive;
+   }
+
+.navbar .nav-item a{
+   margin-top: 20px;
+   width:120px;
+   color: #FFF !important;
+   font-family: 'Coiny', cursive;
+   font-size: 1.1em;
+}
+
+
+    
+}
+div.details-box{
+    
+    margin-top: 15%;
+ 
+}/*
+.main-details{
+  text-align: center;
+   background-color: transparent !important;
+    color:white !important;
+    font-family: 'Prociono', serif;
+    
+}
+
+.Cont-details  {
+    text-align: left;
+    background-color: transparent !important;
+    color:white !important;
+    font-family: 'Prociono', serif;
+    
+        
+}*/
+.main-details{
+  text-align: center;
+    color: white
+        
+    
+}
+.my-4{
+   
+    border-color: azure;
+     max-width: 80%;
+}
+.Cont-details{
+    color: white;
+    margin-left: 15%;
+   
+}
+@media (max-width: 544px) {  
+ .Cont-details {font-size:1.0rem;} /*1rem = 16px*/
+    .main-details {font-size:1.8rem;} /*1rem = 16px*/
+@media (min-width: 544px) {  
+ .Cont-details {font-size:1.0rem;} /*1rem = 16px*/
+    .main-details {font-size:2.0rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+.Cont-details{font-size:1.3rem;} /*1rem = 16px*/
+     .main-details {font-size:2.5rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ .Cont-details {font-size:1.5rem;} /*1rem = 16px*/
+     .main-details {font-size:2.7rem;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+ .Cont-details{font-size:1.7rem;}
+     .main-details {font-size:3.1rem;} /*1rem = 16px*/
+
+
+
+    
