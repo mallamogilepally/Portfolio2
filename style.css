@@ -6,6 +6,7 @@ body{
     background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(images/headerbg.png);
     width: 100%;
     height:100%;
+       margin-left: 0; 
     background-repeat: no-repeat;
     
 }
@@ -14,32 +15,38 @@ nav.navbar{
    background-color: transparent ! important;
     }
 nav.navbar-scrolled{
-     background-color: red! important;
-     margin-top: 0px;
-         padding-top: 0px;
+     background-color: gray !important;
+     width:100%;
+ 
+    
+        
     
 }
 
 .navbar .navbar-brand{
- margin-top: 20px;
+ margin-top: 0.75rem;
  font-size: 1.5em;
  font-family: 'Coiny', cursive;
+    z-index: 101;
    }
 
 .navbar .nav-item a{
-   margin-top: 20px;
-   width:120px;
+   margin-top: 0.75rem;
+   width:8.0rem;
    color: #FFF !important;
    font-family: 'Coiny', cursive;
    font-size: 1.1em;
 }
 
 
+
+
     
-}
+
 div.details-box{
     
-    margin-top: 15%;
+  margin-top: 15%;
+    
  
 }/*
 .main-details{

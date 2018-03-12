@@ -21,16 +21,17 @@
  <body>
        <div class="container-fluid">
        <div class="pageone">
-        <nav class="navbar navbar-expand-md navbar-dark sticky-top" role="navigation">
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top" role="navigation" id="pagenav">
         <div class="container">
             
-            <a href="#" class="navbar-brand ">Hi There</a>
-            <div class="navbar-header navbar-right">
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" value="toggler" onclick="tFunction()" ><span class="navbar-toggler-icon"></span> 
-               </button>
-                <div class="collapse navbar-collapse" id="mynavbar">
+           
+            <div class="navbar-header navbar-neader-right " >
+              <a href="#" class="navbar-brand ">Hi There</a> 
+               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mynavbar" value="toggler"  aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation" onclick="tFunction()"><span class="navbar-toggler-icon"></span> 
+               </button>  </div>
+                <div class="collapse navbar-collapse " id="mynavbar">
                
-                 <ul class="nav navbar-nav">
+                 <ul class="nav navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="active nav-item"><a href="#" class="nav-link">About</a> </li>
                 <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Portfolio</a> </li>
@@ -38,7 +39,7 @@
                 <a href="#" class="nav-link">Contact</a>
                 </li>
              </ul>
-         </div>
+       
         </div>
         </div>
         </nav>
