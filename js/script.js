@@ -21,5 +21,33 @@ if(action==1){
         action=1;
     }
 };
+/*window.addEventListener('mouseup', function(event){
+    
+    var box= document.getElementById('pagenav');
+    if(event.target !=box && event.target.parentNode !=box){
+      $('#pagenav').hide();
+    }
+});*/
+
+$(document).ready(function () {
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
+        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+            $("button.navbar-toggle").click();
+        }
+    });
+});
+
+/* $(document).click(function(e){
+    e.stopPropagation();
+     var container = $(".collapse");
+     if (container.has(e.target).length === 0) {
+        $('.navbar-nav').hide();
+    }
+    
+
+});*/
+
    
    
